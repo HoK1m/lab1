@@ -12,11 +12,47 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
 }
 
-.jumbotron {
+.header {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+}
+
+.projects {
+     display: flex;
+     flex-direction: column;
+     margin-left: 5rem;
+     margin-right: 5rem;
+     justify-content: center;
+}
+
+.projectContainer {
+     margin: 2rem;
+}
+
+.projectInfo {
+     display: flex;
+     flex-direction: row;
+}
+
+.projectText {
+     all: unset;
+     margin: 2rem;
+     text-decoration: none;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+/* .jumbotron {
 	position: relative;
 	background: none;
 }
@@ -31,4 +67,4 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
-}
+} */

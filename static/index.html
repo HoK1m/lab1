@@ -2,9 +2,10 @@
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>
+	<title>Howard Project Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/introHCI.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,62 +19,63 @@
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
-			<h1>Scott Klemmer</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
+		<div class=header>
+			<h1>Howard Kim</h1>
+			<p>Student @ UC San Diego studying Machine Learning & Neural Computation, Human-Computer Interaction, and Computer Science</p>
 		</div>
 
 
-		<h4>Projects</h4>
+		<h2 style="margin-left: 5rem;">Projects</h2>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
+		<div class=projects>
+			<a class=projectContainer href="https://breeze-home.web.app/">
+				<div class=projectInfo>
+					<img src="images/logo800.png" alt="Breeze Project Image">
+					<div class=projectText>
+						<h2>Breeze</h2>
+						<p>
+							A web-based platform built on FERN stack to connect UCSD students with campus organizations and opportunities in hopes of mending campus related activities during the COVID-19 pandemic.
+						</p>
+					</div>
+				</div>
 			</a>
-		</div>
-		<div id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
+			<a class=projectContainer href="https://imgur.com/a/LH7w5WM">
+				<div class=projectInfo>
+					<img src="images/horizon2.png" alt="Horizon Project Image">
+					<div class=projectText>
+						<h2>Horizon Designs</h2>
+						<p>
+							A design project brand specializing in boutique keyboards made from CNC machined aluminum and stainless steel with innovative mounting mechanisms to strive for greater heights in typing experience.
+						</p>
+					</div>
+				</div>
 			</a>
-		</div>
-		<div id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
+			<a class=projectContainer href="https://github.com/COGS108/FinalProjects-Sp20/blob/master/FinalProject_group65.ipynb">
+				<div class=projectInfo>
+					<img src="images/michelin.jpg" alt="Michelin Star Project Image">
+					<div class=projectText>
+						<h2>Michelin Star Factors & Attribute</h2>
+						<p>
+							Data Science project using scikit-learn Machine Learning Model
+						</p>
+						<p>
+							Everyone has an idea of what makes a restaurant upscale: we associate factors like expensive food, special cuisine, and a fancy name to mean a place has higher ratings. In this project, we are using data from the Michelin Star Restaurant Guide to find out if these factors really do make a restaurant more likely to gain stars. We then compare this to data from Yelp to see if these factors correlate to those of restaurants on Yelp’s site. We used visualizations and predictive models to determine if there is any significance in cuisine, price, or name and higher ratings.
+						</p>
+					</div>
+				</div>
 			</a>
-		</div>
-		<div id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
-			</a>
-		</div>
-		<div id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
-			</a>
-		</div>
-		<div id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
-			</a>
-		</div>
-		<div id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
-			</a>
-		</div>
-		<div id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
+			<a class=projectContainer href="https://bayareagaming.com/">
+				<div class=projectInfo>
+					<img src="images/bay400.jpg" alt="BayAreaGaming Project Image">
+					<div class=projectText>
+						<h2>Bay Area Gaming</h2>
+						<p>
+							Community network platform for local gamers and venues to connect for events in the San Francisco Bay Area.
+						</p>
+					</div>
+				</div>
 			</a>
 		</div>
 	</div>
